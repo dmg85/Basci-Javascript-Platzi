@@ -1,2 +1,2 @@
 # Basci-Javascript-Platzi
-Exercises from the Platzi Javascript Course
+Exercises from the Javascript Platzi course
