@@ -26,12 +26,29 @@ adding2Par(99,2);*/
 
 // Scope
 
-let nameUser = "Diego"
+/*let nameUser = "Diego"
 
 function funScope () {
     let lastName = " Medina";
     return nameUser + "" + lastName;
 }
 
-console.log(funScope());
+console.log(funScope());*/
+
+// Hoisting (is when variables an functions are processed before any code gets executed)
+var myName = "Diego";
+
+hey();
+
+function hey() {
+ console.log("Hi " + myName);
+}
+
+var myName = "Diego"
+
+
+
+
+
+
  
