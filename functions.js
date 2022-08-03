@@ -35,8 +35,8 @@ function funScope () {
 
 console.log(funScope());*/
 
-// Hoisting (is when variables an functions are processed before any code gets executed)
-var myName = "Diego";
+// Hoisting (is when variables and functions are processed before any code gets executed)
+/*var myName = "Diego";
 
 hey();
 
@@ -44,7 +44,17 @@ function hey() {
  console.log("Hi " + myName);
 }
 
-var myName = "Diego"
+var myName = "Diego"*/
+
+// if statemet
+
+if (true) {
+    console.log('Hello World!');
+    
+}
+
+
+
 
 
 
