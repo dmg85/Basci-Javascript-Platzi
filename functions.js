@@ -46,7 +46,7 @@ function hey() {
 
 var myName = "Diego"*/
 
-// if statemet
+// if statement
 
 if (true) {
     console.log('Hello World!');
