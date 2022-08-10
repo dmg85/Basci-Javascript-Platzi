@@ -50,7 +50,6 @@ var myName = "Diego"*/
 
 if (true) {
     console.log('Hello World!');
-    
 }
 
 
