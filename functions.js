@@ -50,12 +50,12 @@ var myName = "Diego"*/
 
 let age = 18;
 
-if(age === 18) {
+if(age === 23) {
     console.log('First time voter');
 } else if (age > 18) {
     console.log('You can vote again');
 } else {
-    console.log("Still can'⁄t vote yet");
+    console.log("Still can/'t vote yet");
 }
 
 
