@@ -48,7 +48,7 @@ var myName = "Diego"*/
 
 // if statement
 
-let age = 18;
+/*let age = 18;
 
 if(age === 23) {
     console.log('First time voter');
@@ -56,7 +56,16 @@ if(age === 23) {
     console.log('You can vote again');
 } else {
     console.log("Still can/'t vote yet");
-}
+}*/
+
+//Ternary Operator
+
+let = num = 1;
+
+let res = num === 1 ? "I/'m number one" : "I/'m not number one";
+
+console.log(res);
+
 
 
 
