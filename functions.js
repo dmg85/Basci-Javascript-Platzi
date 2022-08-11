@@ -48,9 +48,16 @@ var myName = "Diego"*/
 
 // if statement
 
-if (true) {
-    console.log('Hello World!');
+let age = 18;
+
+if(age === 18) {
+    console.log('First time voter');
+} else if (age > 18) {
+    console.log('You can vote again');
+} else {
+    console.log("Still can'⁄t vote yet");
 }
+
 
 
 
