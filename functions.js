@@ -60,11 +60,29 @@ if(age === 23) {
 
 //Ternary Operator
 
-let = num = 1;
+// let = num = 1;
 
-let res = num === 1 ? "I/'m number one" : "I/'m not number one";
+// let res = num === 1 ? "I/'m number one" : "I/'m not number one";
 
-console.log(res);
+// console.log(res);
+
+//switch
+let num = 1;
+
+switch (num){
+    case 1:
+        console.log("I am one");
+        break;
+    case 10:
+        console.log('I am ten');
+        break;
+    case 100:
+        console.log('I am One Hundred');
+        break;
+    default:
+        console.log('I am none of the above');
+               
+}
 
 
 
