@@ -67,22 +67,42 @@ if(age === 23) {
 // console.log(res);
 
 //switch
-let num = 1;
+// let num = 1;
 
-switch (num){
-    case 1:
-        console.log("I am one");
-        break;
-    case 10:
-        console.log('I am ten');
-        break;
-    case 100:
-        console.log('I am One Hundred');
-        break;
-    default:
-        console.log('I am none of the above');
+// switch (num){
+//     case 1:
+//         console.log("I am one");
+//         break;
+//     case 10:
+//         console.log('I am ten');
+//         break;
+//     case 100:
+//         console.log('I am One Hundred');
+//         break;
+//     default:
+//         console.log('I am none of the above');
                
+// }
+
+// rock, paper scissors with switch
+
+let weapons = ['rock', 'paper', 'scissors'];
+
+// let ran2 = weapons(Math.floor(Math.random() * 2)) + 1;
+
+switch(weapons) {
+    case 'rock':
+        console.log('user weapon: rock');
+        break;
+    case 'paper':
+        console.log('user weapon: paper');
+        break;
+    case 'rock':
+        console.log('user weapon: rock');
+        break;  
 }
+
+console.log("User choose: " + weapons[0]);
 
 
 
