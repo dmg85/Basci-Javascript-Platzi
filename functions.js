@@ -99,7 +99,10 @@ switch(weapons) {
         break;
     case 'rock':
         console.log('user weapon: rock');
-        break;  
+        break;
+    default:
+        console.log('Choose a vail weapon! ');
+          
 }
 
 console.log("User choose: " + weapons[0]);
