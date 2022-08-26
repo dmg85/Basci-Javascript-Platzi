@@ -86,7 +86,7 @@ if(age === 23) {
 
 // rock, paper scissors with switch
 
-let weapons = ['rock', 'paper', 'scissors'];
+/*let weapons = ['rock', 'paper', 'scissors'];
 
 // let ran2 = weapons(Math.floor(Math.random() * 2)) + 1;
 
@@ -105,8 +105,29 @@ switch(weapons) {
           
 }
 
-console.log("User choose: " + weapons[0]);
+console.log("User choose: " + weapons[0]);*/
 
+
+// Arrays
+
+let stocks = ['Apple', 'CocaCola', 'Microsoft', 'Amazon']
+
+// //.push adds an element at the end of the array
+// let add1 = stocks.push("Nvidia");
+
+// // .pop remove the last item of the array 
+// let add2 = stocks.pop("Amazon");
+
+// // .unshift adds an element at the beginning of the array
+// let add3 = stocks.unshift("Visa");
+
+// // .shift removes the first element of the array
+// let add4 = stocks.shift("Visa");
+
+// .indexOf tells you the position of the index in the array but calling the add5 variable
+let add5 = stocks.indexOf("CocaCola");
+
+console.log(add5);
 
 
 
