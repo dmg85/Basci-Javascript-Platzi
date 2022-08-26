@@ -4,7 +4,7 @@ function user() {
     let sign = prompt("Choose Your weapon: rock, paper or scissors?: ");
 }
 
-let randomCpu = Math.floor(Math.random() * 3) + 1;
+let randomCpu = Math.floor(Math.random() * 2) + 1;
 
 function cpu() {
     if (randomCpu == 1) {

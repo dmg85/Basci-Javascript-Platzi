@@ -101,7 +101,7 @@ switch(weapons) {
         console.log('user weapon: rock');
         break;
     default:
-        console.log('Choose a vail weapon! ');
+        console.log('Choose a valid weapon! ');
           
 }
 
