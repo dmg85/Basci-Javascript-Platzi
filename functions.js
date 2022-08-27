@@ -111,7 +111,7 @@ let weapons = ['rock', 'paper', 'scissors'];
 
 let currencies = ["Dolar", "Euro", "Bitcoin", "Ether"]
 
-// My first arrow function made entirely by miself =)
+// My first arrow function made entirely by myself =)
 let namingCurrencies = (currencies) => console.log(`Currency ${currencies}`);
 
 // for(let i = 0; i < currencies.length; i++){
