@@ -90,25 +90,38 @@ let weapons = ['rock', 'paper', 'scissors'];
 
 // let ran2 = weapons(Math.floor(Math.random() * 2)) + 1;
 
-switch(weapons) {
-    case 'rock':
-        console.log('user weapon: rock');
-        break;
-    case 'paper':
-        console.log('user weapon: paper');
-        break;
-    case 'rock':
-        console.log('user weapon: rock');
-        break;
-    default:
-        console.log('Choose a vail weapon! ');
+// switch(weapons) {
+//     case 'rock':
+//         console.log('user weapon: rock');
+//         break;
+//     case 'paper':
+//         console.log('user weapon: paper');
+//         break;
+//     case 'rock':
+//         console.log('user weapon: rock');
+//         break;
+//     default:
+//         console.log('Choose a valid weapon! ');
           
+// }
+
+// console.log("User choose: " + weapons[0]);
+
+// Loops
+
+let currencies = ["Dolar", "Euro", "Bitcoin", "Ether"]
+
+// My first arrow function made entirely by miself =)
+let namingCurrencies = (currencies) => console.log(`Currency ${currencies}`);
+
+// for(let i = 0; i < currencies.length; i++){
+//     namingCurrencies(currencies[i])
+// }
+
+//for example
+for(let currency of currencies){
+    namingCurrencies(currency);
 }
-
-console.log("User choose: " + weapons[0]);
-
-
-
 
 
 
