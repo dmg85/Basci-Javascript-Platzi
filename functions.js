@@ -109,18 +109,31 @@ let weapons = ['rock', 'paper', 'scissors'];
 
 // Loops
 
-let currencies = ["Dolar", "Euro", "Bitcoin", "Ether"]
+// let currencies = ["Dolar", "Euro", "Bitcoin", "Ether"]
 
-// My first arrow function made entirely by myself =)
-let namingCurrencies = (currencies) => console.log(`Currency ${currencies}`);
+// // My first arrow function made entirely by myself =)
+// let namingCurrencies = (currencies) => console.log(`Currency ${currencies}`);
 
-// for(let i = 0; i < currencies.length; i++){
-//     namingCurrencies(currencies[i])
+// // for(let i = 0; i < currencies.length; i++){
+// //     namingCurrencies(currencies[i])
+// // }
+
+// //for example
+// for(let currency of currencies){
+//     namingCurrencies(currency);
 // }
 
-//for example
-for(let currency of currencies){
-    namingCurrencies(currency);
+// While Loop
+
+let langs = ['C#', 'Javascript', 'GO', 'Java', '.NET'];
+
+let languagesOp = (languages) => console.log(`Learn to program in,
+ ${languages}`);
+
+
+while(langs.length > 0){
+    let languages = langs.shift();
+    languagesOp(languages);
 }
 
 
