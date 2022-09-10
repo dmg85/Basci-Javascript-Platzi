@@ -125,17 +125,32 @@ let weapons = ['rock', 'paper', 'scissors'];
 
 // While Loop
 
-let langs = ['C#', 'Javascript', 'GO', 'Java', '.NET'];
+// let langs = ['C#', 'Javascript', 'GO', 'Java', '.NET'];
 
-let languagesOp = (languages) => console.log(`Learn to program in,
- ${languages}`);
+// let languagesOp = (languages) => console.log(`Learn to program in,
+//  ${languages}`);
 
 
-while(langs.length > 0){
-    let languages = langs.shift();
-    languagesOp(languages);
-}
+// while(langs.length > 0){
+//     let languages = langs.shift();
+//     languagesOp(languages);
+// }
 
+// Objects including a function inside of it and using "this"
+// this: Is a varible that references the parent object "userInfo"
+let userInfo = {
+    nickName: "DiegoDev",
+    age: 37,
+    role: "Front-End Developer",
+    github: "dmg85",
+    bio: function(){
+        console.log(`I am ${this.nickName} and I'm a ${this.role}`);   
+    }
+ };
+
+console.log(userInfo.bio());
+
+// 
 
 
 
