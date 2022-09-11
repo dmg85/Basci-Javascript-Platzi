@@ -138,19 +138,34 @@ let weapons = ['rock', 'paper', 'scissors'];
 
 // Objects including a function inside of it and using "this"
 // this: Is a varible that references the parent object "userInfo"
-let userInfo = {
-    nickName: "DiegoDev",
-    age: 37,
-    role: "Front-End Developer",
-    github: "dmg85",
-    bio: function(){
-        console.log(`I am ${this.nickName} and I'm a ${this.role}`);   
-    }
- };
+// let userInfo = {
+//     nickName: "DiegoDev",
+//     age: 37,
+//     role: "Front-End Developer",
+//     github: "dmg85",
+//     bio: function(){
+//         console.log(`I am ${this.nickName} and I'm a ${this.role}`);   
+//     }
+//  };
 
-console.log(userInfo.bio());
+// console.log(userInfo.bio());
 
-// 
+// Function constructor
+
+function macProducts(item, model, discStorage) {
+    this.item = item;
+    this.model = model;
+    this.discStorage = discStorage;
+}
+
+let newAppleItems = new macProducts("IphoneX", 2021, "512gb");
+
+let newReleases = new macProducts("MacStudio", 2022, "1Tb");
+
+console.log(newAppleItems, newReleases);
+
+
+ 
 
 
 
