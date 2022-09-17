@@ -11,9 +11,27 @@ let shopItems = [
     {name: "I-Pad", price: 980 },
 ];
 
+// some(); returs true or false according to a validation statement ej; items under $300
+shopItems.some(item => console.log(item.price <= 300));
+
+
+// forEach()
+// shopItems.forEach(item => console.log(item.name));
+
+
+
+
+
+
+// Find() example
+// let findItem = shopItems.find(items => items.name === "MacBook-Pro")
+// console.log(findItem);
+
+
 // Arrow function made by myself "FILTER example" =)
 // console.log(shopItems.filter(items => items.price < 1000));
 
 // MAP example
-console.log(shopItems.map(items => items.name));
+// console.log(shopItems.map(items => items.name));
+
 
