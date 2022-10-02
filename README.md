@@ -5,7 +5,7 @@ Absolute Javascript beginner course covering the basic concepts of the language 
 
     let coreConcepts = [
     	{Why Javascript},
-    	{Variables functions & sintax},
+    	{Variables, functions & sintax},
     	{Functions},
     	{Declarative and expresive functions},
     	{Scope , hoisting, coercion},
@@ -19,7 +19,8 @@ Absolute Javascript beginner course covering the basic concepts of the language 
     ],
 
 If you are interested in learn **Javscrip**t please visits the following links where you can find free and paid resources:
- 
-https://platzi.com/home,
-https://www.freecodecamp.org,
-https://developer.mozilla.org,
+<ul>
+<li>https://platzi.com/home</li>
+<li>https://www.freecodecamp.org</li>
+<li>https://developer.mozilla.org</li>
+</ul>
