@@ -1,8 +1,8 @@
-# Basic Javascript Course :computer:
+# Basic Javascript Course 👨🏻‍💻
 
 Absolute Javascript beginner course covering the basic concepts of the language as follows:
  
-
+<code>
     let coreConcepts = [
     	{Why Javascript},
     	{Variables, functions & sintax},
@@ -17,8 +17,9 @@ Absolute Javascript beginner course covering the basic concepts of the language 
     	{Objects},
     	{Array methods (.find(), .forEach(), and .some())},
     ],
+</code>
 
-If you are interested in learn **Javscrip**t please visits the following links where you can find free and paid resources:
+If you are interested in learn **Javscript**t please visits the following links where you can find free and paid resources:
 <ul>
 <li>https://platzi.com/home</li>
 <li>https://www.freecodecamp.org</li>
