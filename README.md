@@ -1,4 +1,4 @@
-# Basic Javascript Course :fa-code:
+# Basic Javascript Course :computer:
 
 Absolute Javascript beginner course covering the basic concepts of the language as follows:
  
@@ -19,7 +19,7 @@ Absolute Javascript beginner course covering the basic concepts of the language 
     ],
 
 If you are interested in learn **Javscrip**t please visits the following links where you can find free and paid resources:
-
-https://platzi.com/home
-https://www.freecodecamp.org
-https://developer.mozilla.org
+ 
+https://platzi.com/home,
+https://www.freecodecamp.org,
+https://developer.mozilla.org,
