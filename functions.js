@@ -152,31 +152,32 @@ let weapons = ['rock', 'paper', 'scissors'];
 
 // Function constructor
 
-function macProducts(item, model, discStorage) {
-    this.item = item;
-    this.model = model;
-    this.discStorage = discStorage;
-}
+// function macProducts(item, model, discStorage) {
+//     this.item = item;
+//     this.model = model;
+//     this.discStorage = discStorage;
+// }
 
-let newAppleItems = new macProducts("IphoneX", 2021, "512gb");
+// let newAppleItems = new macProducts("IphoneX", 2021, "512gb");
 
-let newReleases = new macProducts("MacStudio", 2022, "1Tb");
+// let newReleases = new macProducts("MacStudio", 2022, "1Tb");
 
-console.log(newAppleItems, newReleases);
+// console.log(newAppleItems, newReleases);
 
 
  // Rebase Callback example
 
-let order = () => {};
-let production = () => {};
-
-
- let order = (call_production) =>{
+let order = (call_production) => {
+    console.log('Order placed. Please call productiion');
+    
     call_production();
- }
+}
 
- let production = () => {};
+let production = () =>{
+    console.log('Production has started')
+}
 
+order(production);
 
 
 
