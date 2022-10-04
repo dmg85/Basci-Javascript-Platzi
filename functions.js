@@ -165,7 +165,7 @@ let newReleases = new macProducts("MacStudio", 2022, "1Tb");
 console.log(newAppleItems, newReleases);
 
 
- 
+ // Rebase Callback example
 
 
 
