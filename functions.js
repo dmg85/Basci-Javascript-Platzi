@@ -167,7 +167,8 @@ console.log(newAppleItems, newReleases);
 
  // Rebase Callback example
 
-
+let order = () => {};
+let production = () => {};
 
 
  let order = (call_production) =>{
