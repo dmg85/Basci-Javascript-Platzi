@@ -6,3 +6,12 @@ setTimeout(() =>{
 
 console.log('stash example');
 
+// Cherry add
+function greeting(name) {
+    alert(`Hello, ${name}`);
+}
+
+function proUserInput(callback) {
+    const name = console.log('input replace');
+    callback(name);
+}
