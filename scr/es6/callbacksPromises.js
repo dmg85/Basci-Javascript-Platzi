@@ -15,3 +15,5 @@ function proUserInput(callback) {
     const name = console.log('input replace');
     callback(name);
 }
+
+proUserInput(greeting);
