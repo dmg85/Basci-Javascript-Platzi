@@ -6,3 +6,6 @@ setTimeout(() =>{
 
 console.log('stash example');
 
+let userName = 'diego';
+let userAge = '37';
+let userCur = 'Dolar';
