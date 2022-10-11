@@ -28,17 +28,31 @@ const names = [
  
  // Promises
 
- const newProm1 = () => {
-    return new Promise ((resolve, reject) => {
-        if (false) {
-            resolve('Up & running');
-        } else {
-            reject('error!! ')
-        }
-    });
- }
+//  const newProm1 = () => {
+//     return new Promise ((resolve, reject) => {
+//         if (false) {
+//             resolve('Up & running');
+//         } else {
+//             reject('error!! ')
+//         }
+//     });
+//  }
 
- newProm1()
-    .then(response => console.log(response))
-    .then(() => console.log('hola'))
-    .catch(error => console.log(error))
+//  newProm1()
+//     .then(response => console.log(response))
+//     .then(() => console.log('hola'))
+//     .catch(error => console.log(error))
+
+const usersList = [
+    { name: 'Bot1', lang: 'Cobol'},
+    { name: 'ChatBot', lang: 'C#'},
+    { name: 'NoobSaibot', lang: 'Java'},
+    { name: 'Cyrax', lang: 'Python'},
+]
+
+//let countName = usersList.map(item => console.log(item.lang.toUpperCase()));
+
+let countLang = usersList.filter(usersList => usersList.lang.length > 4);
+
+console.log(countLang);
+
