@@ -19,7 +19,7 @@ Absolute Javascript beginner course covering the basic concepts of the language 
         ],
     </code>
 
-If you are interested in learn **Javscript**t please visits the following links where you can find free and paid resources:
+If you are interested in learn **Javscript**t please visit the following links where you can find free and paid resources:
 <ul>
 <li>https://platzi.com/home</li>
 <li>https://www.freecodecamp.org</li>
