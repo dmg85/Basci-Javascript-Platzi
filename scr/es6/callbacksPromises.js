@@ -54,9 +54,11 @@
 // let entries = [["name", "Diego"], ["age", 37]];
 // console.log(Object.fromEntries(entries));
 
-let mySym = `desc example`;
-let symbol = pollo(mySym);
-console.log(symbol.description);
+// let mySym = `desc example`;
+// let symbol = pollo(mySym);
+// console.log(symbol.description);
+
+// es11
 
 
 
